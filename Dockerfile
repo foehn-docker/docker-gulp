@@ -1,6 +1,6 @@
 FROM node:7.8
 RUN apt-get update && \
     apt-get install -y rubygems
-RUN npm install -g gulp bower
+RUN npm install -g gulp bower grunt
 RUN gem install sass
 WORKDIR /home/user
